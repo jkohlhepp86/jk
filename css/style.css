@@ -1,7 +1,10 @@
 .page-wrapper {
 	position: relative;
 	margin: 0 auto;
-	width: 600px;
+	width: 800px;
 	text-align: left;
-	border-width: 1px;
+	border-width: 2px;
+    border-color: #212738;
+    border-style: solid;
 	}
+	

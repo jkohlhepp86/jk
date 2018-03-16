@@ -17,4 +17,7 @@ nav {
 	border-width: 2px;
 	border-style: solid;
 	border-color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }

@@ -27,3 +27,8 @@ ul {
 li {
 	display: inline;
 }
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+}

@@ -1,5 +1,6 @@
-.page-wrapper { 
-	padding: 0 175px 0 110px;  
-	margin: 0; 
+.page-wrapper {
 	position: relative;
+	margin: 0 auto;
+	width: 600px;
+	text-align: left;
 	}

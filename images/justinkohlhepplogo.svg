@@ -9,21 +9,21 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="153.04047mm"
+   height="21.207602mm"
+   viewBox="0 0 153.04047 21.207602"
    version="1.1"
    id="svg8"
-   enable-background="new"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
-   sodipodi:docname="justinkohlhepplogo.svg">
+   sodipodi:docname="justinkohlhepplogo.svg"
+   style="enable-background:new">
   <defs
      id="defs2">
     <filter
        inkscape:label="Bloom"
        inkscape:menu="Bevels"
        inkscape:menu-tooltip="Soft, cushion-like bevel with matte highlights"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter4536">
       <feGaussianBlur
          result="result1"
@@ -32,7 +32,7 @@
          id="feGaussianBlur4512" />
       <feSpecularLighting
          result="result0"
-         specularExponent="18.1"
+         specularExponent="18.10000038"
          specularConstant="2"
          surfaceScale="5"
          id="feSpecularLighting4516">
@@ -92,7 +92,7 @@
        inkscape:label="Bloom"
        inkscape:menu="Bevels"
        inkscape:menu-tooltip="Soft, cushion-like bevel with matte highlights"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter1094">
       <feGaussianBlur
          result="result1"
@@ -101,7 +101,7 @@
          id="feGaussianBlur1070" />
       <feSpecularLighting
          result="result0"
-         specularExponent="18.1"
+         specularExponent="18.10000038"
          specularConstant="2"
          surfaceScale="5"
          id="feSpecularLighting1074">
@@ -161,7 +161,7 @@
        inkscape:menu-tooltip="Bright metallic effect for any color"
        inkscape:menu="Bevels"
        inkscape:label="Bright Metal"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter1116">
       <feGaussianBlur
          result="result6"
@@ -198,7 +198,7 @@
       <feSpecularLighting
          result="result5"
          specularExponent="5"
-         specularConstant="1.1"
+         specularConstant="1.10000002"
          surfaceScale="18"
          id="feSpecularLighting1110">
         <feDistantLight
@@ -214,7 +214,8 @@
          result="result7"
          in2="result5"
          k1="0.5"
-         id="feComposite1112" />
+         id="feComposite1112"
+         k4="0" />
       <feComposite
          in="result7"
          operator="atop"
@@ -226,7 +227,7 @@
        inkscape:label="Combined Lighting"
        inkscape:menu="Bevels"
        inkscape:menu-tooltip="Basic specular bevel to use for building textures"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter1136">
       <feGaussianBlur
          stdDeviation="6"
@@ -234,7 +235,7 @@
          result="result0"
          id="feGaussianBlur1118" />
       <feDiffuseLighting
-         lighting-color="rgb(255,255,255)"
+         lighting-color="#ffffff"
          diffuseConstant="1"
          surfaceScale="4"
          result="result5"
@@ -250,7 +251,10 @@
          in="result5"
          result="fbSourceGraphic"
          operator="arithmetic"
-         id="feComposite1124" />
+         id="feComposite1124"
+         k2="0"
+         k3="0"
+         k4="0" />
       <feGaussianBlur
          result="result0"
          in="fbSourceGraphic"
@@ -260,7 +264,7 @@
          specularExponent="25"
          specularConstant="1"
          surfaceScale="4"
-         lighting-color="rgb(255,255,255)"
+         lighting-color="#ffffff"
          result="result1"
          in="result0"
          id="feSpecularLighting1130">
@@ -276,7 +280,9 @@
          in="fbSourceGraphic"
          in2="result1"
          result="result4"
-         id="feComposite1132" />
+         id="feComposite1132"
+         k1="0"
+         k4="0" />
       <feComposite
          operator="in"
          result="result2"
@@ -288,7 +294,7 @@
        inkscape:label="Black Light"
        inkscape:menu="Color"
        inkscape:menu-tooltip="Light areas turn to black"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter1146">
       <feColorMatrix
          type="luminanceToAlpha"
@@ -300,7 +306,10 @@
          in="result2"
          k3="2"
          result="result4"
-         id="feComposite1140" />
+         id="feComposite1140"
+         k1="0"
+         k2="0"
+         k4="0" />
       <feBlend
          in="result4"
          mode="multiply"
@@ -317,7 +326,7 @@
        inkscape:label="Age"
        inkscape:menu="Image Effects"
        inkscape:menu-tooltip="Imitate aged photograph"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter1160">
       <feColorMatrix
          type="saturate"
@@ -345,7 +354,7 @@
          id="feComposite1158" />
     </filter>
     <filter
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        inkscape:label="Electrize"
        id="filter1172">
       <feGaussianBlur
@@ -419,7 +428,8 @@
          k4="-2"
          result="result3"
          in2="result1"
-         id="feComposite1188" />
+         id="feComposite1188"
+         k3="0" />
       <feColorMatrix
          values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 10 0 "
          result="result2"
@@ -504,7 +514,7 @@
        inkscape:label="Cool Outside"
        inkscape:menu="Morphology"
        inkscape:menu-tooltip="Blurred colorized contour, empty inside"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter1238">
       <feGaussianBlur
          stdDeviation="2"
@@ -554,7 +564,7 @@
        inkscape:menu-tooltip="Creates colorizable blotches which smoothly flow over the edges of the lines at their crossings"
        inkscape:menu="Protrusions"
        inkscape:label="Chewing Gum"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter1252">
       <feFlood
          result="result4"
@@ -573,7 +583,9 @@
          k4="-2"
          k2="4"
          operator="arithmetic"
-         id="feComposite1244" />
+         id="feComposite1244"
+         k1="0"
+         k3="0" />
       <feColorMatrix
          result="result2"
          values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 10 -3"
@@ -592,14 +604,14 @@
          id="feBlend1250" />
     </filter>
     <filter
-       x="-0.35"
+       x="-0.34999999"
        width="1.7"
-       y="-0.35"
+       y="-0.34999999"
        height="1.7"
        inkscape:menu-tooltip="Smooth rainbow colors warped along the edges and colorizable"
        inkscape:menu="Textures"
        inkscape:label="Warped Rainbow"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter1266">
       <feGaussianBlur
          result="result8"
@@ -624,7 +636,10 @@
          result="result2"
          in2="result7"
          k3="1"
-         id="feComposite1260" />
+         id="feComposite1260"
+         k1="0"
+         k2="0"
+         k4="0" />
       <feComposite
          in2="result6"
          operator="in"
@@ -637,7 +652,10 @@
          k2="2.5"
          operator="arithmetic"
          id="feComposite1264"
-         result="fbSourceGraphic" />
+         result="fbSourceGraphic"
+         k1="0"
+         k3="0"
+         k4="0" />
       <feColorMatrix
          result="fbSourceGraphicAlpha"
          in="fbSourceGraphic"
@@ -676,17 +694,19 @@
          in="result10"
          result="fbSourceGraphic"
          k1="2.5"
-         k3="0.5" />
+         k3="0.5"
+         k2="0"
+         k4="0" />
     </filter>
     <filter
-       x="-0.35"
+       x="-0.34999999"
        width="1.7"
-       y="-0.35"
+       y="-0.34999999"
        height="1.7"
        inkscape:menu-tooltip="Smooth rainbow colors warped along the edges and colorizable"
        inkscape:menu="Textures"
        inkscape:label="Warped Rainbow"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter1290">
       <feGaussianBlur
          result="result8"
@@ -720,7 +740,9 @@
          result="fbSourceGraphic"
          k1="2.5"
          k3="0.5"
-         id="feComposite1288" />
+         id="feComposite1288"
+         k2="0"
+         k4="0" />
     </filter>
     <filter
        y="-0.25"
@@ -728,7 +750,7 @@
        inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Emergence"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter1302">
       <feGaussianBlur
          stdDeviation="5"
@@ -827,7 +849,7 @@
        inkscape:label="In and Out"
        inkscape:menu="Shadows and Glows"
        inkscape:menu-tooltip="Inner colorized shadow, outer black shadow"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter1340">
       <feGaussianBlur
          result="result0"
@@ -850,7 +872,7 @@
        inkscape:label="In and Out"
        inkscape:menu="Shadows and Glows"
        inkscape:menu-tooltip="Inner colorized shadow, outer black shadow"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter1348">
       <feGaussianBlur
          result="result0"
@@ -875,7 +897,7 @@
        inkscape:menu-tooltip="In and out glow with a possible offset and colorizable flood"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Cutout Glow"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter1360">
       <feGaussianBlur
          stdDeviation="5"
@@ -938,7 +960,7 @@
        inkscape:menu-tooltip="Darkens the edge with an inner blur and adds a flexible glow"
        inkscape:menu="Shadows and Glows"
        inkscape:label="Dark and Glow"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter1384"
        y="-0.25"
        height="1.5">
@@ -1008,13 +1030,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.64831278"
-     inkscape:cx="9.9422894"
-     inkscape:cy="898.67863"
+     inkscape:cx="-2.0949803"
+     inkscape:cy="-127.18283"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1058"
+     inkscape:window-width="1600"
+     inkscape:window-height="816"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1" />
@@ -1026,22 +1048,25 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-3.1848609,-4.3665539)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58326245px;line-height:1.25;font-family:'Bebas Neue';-inkscape-font-specification:'Bebas Neue, Normal';letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:#b3b3b3;stroke-width:0.26458332;opacity:1;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;filter:url(#filter1384)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58326244px;line-height:1.25;font-family:'Bebas Neue';-inkscape-font-specification:'Bebas Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#808080;fill-opacity:1;stroke:#b3b3b3;stroke-width:0.26458332;filter:url(#filter1384)"
        x="9.8889723"
        y="14.763378"
        id="text821"
        transform="matrix(1.8554457,0,0,1.8554457,-2.7244047,-5.5494574)"><tspan
          sodipodi:role="line"
-         id="tspan1042">JustinKohlhepp.com</tspan></text>
+         id="tspan1042"
+         x="9.8889723"
+         y="14.763378">JustinKohlhepp.com</tspan></text>
   </g>
 </svg>

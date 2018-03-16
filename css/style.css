@@ -13,3 +13,8 @@ img {
     margin-right: auto;
     width: 100%;
 }
+nav {
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+}
